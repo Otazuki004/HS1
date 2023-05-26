@@ -1,5 +1,5 @@
-LOG_GROUP_ID = -0000000
-OWNER_ID = [5965055071]
+LOG_GROUP_ID = "-1001859707851"
+OWNER_ID = "5965055071"
 HANDLER = ["~", ".", "!", "/"]
 ALIVE_TEXT = """
 ╔┓┏╦━╦┓╔┓╔━━╗
