@@ -2,7 +2,7 @@ from pyrogram import filters
 from telegraph import upload_file
 
 from HS1.config import HANDLER, OWNER_ID
-from HS1.HydraUserBot.oss import Hydra
+from HS1.HydraUserBot.__init__ import Hydra
 
 
 @Hydra.on_message(filters.command("tm", prefixes=HANDLER) & filters.user(OWNER_ID))
