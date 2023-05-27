@@ -1,4 +1,4 @@
-from HS1.HydraUserBot.oss import Hydra
+from HS1.HydraUserBot.__init__ import Hydra
 import asyncio
 
 if __name__ == "__main__":
