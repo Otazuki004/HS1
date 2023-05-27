@@ -6,7 +6,7 @@ from subprocess import getoutput as run
 from pyrogram import filters
 
 from HS1.config import HANDLER, OWNER_ID
-from HS1.HydraUserBot.oss import Hydra as Hs
+from HS1.HydraUserBot.__init__ import Hydra as Hs
 
 #Hyper Speed™
 @Hs.on_message(filters.user(OWNER_ID) & filters.command("logs", prefixes=HANDLER))
