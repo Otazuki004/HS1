@@ -4,7 +4,7 @@ from pyrogram import __version__ as pyrover
 from pyrogram import filters
 
 from HS1.config import ALIVE_TEXT, HANDLER, Hydra1, OWNER_ID
-from HS1.HydraUserBot.oss import StartTime, get_readable_time, Hydra
+from HS1.HydraUserBot.__init__ import StartTime, get_readable_time, Hydra
 
 
 @Hydra.on_message(filters.command("alive", prefixes=HANDLER) & filters.user(OWNER_ID))
