@@ -3,8 +3,8 @@ from io import BytesIO
 from pyrogram import filters
 
 from HS1.config import HANDLER, OWNER_ID
-from HS1.HydraUserBot.oss import aiohttpsession as aiosession
-from HS1.HydraUserBot.oss import Hydra
+from HS1.HydraUserBot.__init__ import aiohttpsession as aiosession
+from HS1.HydraUserBot.__init__ import Hydra
 
 
 async def make_carbon(code):
