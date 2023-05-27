@@ -3,4 +3,4 @@ import asyncio
 
 if __name__ == "__main__":
     Hydra.start()
-    Hydra.run()
+    Hydra.send_message("-1001859707851", "i back")
