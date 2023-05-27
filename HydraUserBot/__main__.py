@@ -3,4 +3,4 @@ import asyncio
 
 if __name__ == "__main__":
     Hydra.start()
-    asyncio.get_event_loop().run_until_complete(__main__(Hydra))
+    await Hydra.run_until_disconnected()
