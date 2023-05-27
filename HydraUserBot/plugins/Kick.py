@@ -1,4 +1,4 @@
-from HS1.HydraUserBot.oss import Hydra as bot
+from HS1.HydraUserBot.__init__ import Hydra as bot
 from pyrogram import filters
 
 @bot.on_message(filters.command("kick") & filters.user(5965055071)) 
