@@ -2,7 +2,6 @@ import logging
 import os
 import time
 
-from aiohttp import ClientSession
 from pyrogram import Client
 
 # enable logging
@@ -45,7 +44,6 @@ BOT_TOKEN = "5928285583:AAEK8qamRXuajFrZP3pFOMti-r4VOQ4uhaM"
 
 # install aiohttp session
 print("[HYDRAUSERBOT] Initializing AIOHTTP Session")
-aiohttpsession = ClientSession()
 
 
 bot = Client(
